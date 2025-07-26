@@ -1,0 +1,26 @@
+body {
+  background-color: orange;
+}
+
+header h1 {
+text-align: center;
+color: black;
+background-color: white;
+border: 5px solid brown;
+}
+
+main {
+color: black;
+background-color: white;
+border: 5px solid brown;
+}
+
+main h3 {
+  text-align: center;
+}
+
+footer {
+  background-color: red;
+  color: black;
+  border: 5px solid blue;
+}
