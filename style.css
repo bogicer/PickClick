@@ -1,0 +1,38 @@
+header h1 {
+text-align: center;
+color: orange;
+background-color: white;
+border: 5px solid green;
+}
+
+body {
+  background-color: red;
+}
+
+header table img {
+  weight: 50px;
+  height: 50px;
+}
+
+main table img {
+  weight: 200px;
+  height: 200px;
+}
+
+main form {
+text-align: center;
+color: orange;
+background-color: white;
+border: 5px solid brown;
+}
+
+header form {
+text-align: center;
+color: orange;
+background-color: white;
+border: 5px solid brown;
+}
+
+footer {
+  background-color: orange;
+}
