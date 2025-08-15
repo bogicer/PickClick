@@ -1,0 +1,160 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="style3.css">
+</head>
+            <title>PickClick</title>
+  <body>
+    <header>
+       <table>
+    <tr>
+      <td>
+        <form action="index.html">
+            <button class="button" type="submit">головна сторінка</button>
+            </form>
+      </td>
+      <td>
+        <form action="rules.html">
+            <button class="button" type="submit">правила</button>
+        </form>        
+      </td>
+      <td>
+        <form action="user.html">
+            <button class="button" type="submit">угода користувача</button>
+        </form>  
+      </td>
+    </tr>
+  </table>
+      <h1 class="h21">магазин</h1>
+      <h2 class="h21">нашего сервера</h2>
+    </header>
+    <main>
+      
+      <table>
+          <tr>
+            <td>
+              <h2>силач</h2>
+              <img src="https://github.com/bogicer/PickClick/blob/main/file_00000000dd20620ab9b17020fb0cc37d%20(1).png?raw=true">
+              </td>
+              <td>
+              <table>
+                <tr>
+                  <td>
+                      <h3 style="text-align: left">опис:</h3>
+                      <p>любить займатися спортом</p>
+                      <p>ціна: 55грн</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <form action="">
+                      <button class="button1" type="submit">купити</button>
+                      </form>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+          </tr>
+          
+          <tr>
+            <td>
+              <h2>козак</h2>
+              <img src="https://github.com/bogicer/PickClick/blob/main/file_00000000d6a86246b969327499466f56.png?raw=true">
+              </td>
+              <td>
+              <table>
+                <tr>
+                  <td>
+                      <h3 style="text-align: left">опис:</h3>
+                      <p>захищає рідні землі</p>
+                      <p>ціна: 75грн</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <form action="">
+                      <button class="button1" type="submit">купити</button>
+                      </form>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+          </tr>
+          <tr>
+            <td>
+              <h2>отаман</h2>
+              <img src="https://github.com/bogicer/PickClick/blob/main/ChatGPT%20Image%2015%20%D1%81%D0%B5%D1%80%D0%BF.%202025%20%D1%80.,%2021_50_41.png?raw=true">
+              </td>
+              <td>
+              <table>
+                <tr>
+                  <td>
+                      <h3 style="text-align: left">опис:</h3>
+                      <p>головний в царстві</p>
+                      <p>ціна: 125грн</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <form action="">
+                      <button class="button1" type="submit">купити</button>
+                      </form>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+          </tr>
+          <tr>
+            <td>
+              <h2>характерник</h2>
+              <img src="https://github.com/bogicer/PickClick/blob/main/ChatGPT%20Image%2015%20%D1%81%D0%B5%D1%80%D0%BF.%202025%20%D1%80.,%2021_50_44.png?raw=true">
+              </td>
+              <td>
+              <table>
+                <tr>
+                  <td>
+                      <h3 style="text-align: left">опис:</h3>
+                      <p>літає як київский привид</p>
+                      <p>ціна: 155грн</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <form action="">
+                      <button class="button1" type="submit">купити</button>
+                      </form>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+          </tr>
+                    <tr>
+            <td>
+              <h2>кіборг</h2>
+              <img src="https://github.com/bogicer/PickClick/blob/main/ChatGPT%20Image%2015%20%D1%81%D0%B5%D1%80%D0%BF.%202025%20%D1%80.,%2021_50_48.png?raw=true">
+              </td>
+              <td>
+              <table>
+                <tr>
+                  <td>
+                      <h3 style="text-align: left">опис:</h3>
+                      <p>це машина для знищення ворогів</p>
+                      <p>ціна: 175грн</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <form action="">
+                      <button class="button1" type="submit">купити</button>
+                      </form>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+          </tr>
+      </table>
+  </main>
+  <footer>
+    <p>створив: bogicer_YT <br/><b>Підтримка</b> discord: bogdan04855</p>
+  </footer>
+  </body>
+</html>
