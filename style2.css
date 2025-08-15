@@ -2,7 +2,7 @@ body {
   background-color: orange;
 }
 
-header {
+header h1, h2{
 text-align: center;
 color: black;
 background-color: white;
