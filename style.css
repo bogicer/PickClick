@@ -1,40 +1,54 @@
-header h1 {
+body {
+    background-color: #FD9F02;
+}
+
+header h1, div {
     text-align: center;
 }
 
-header h2 {
-    text-align: center;
-}
-
-main h1 {
-    text-align: center;
+header {
+    background-color: #FD2102;
+    background-image: url('https://m.media-amazon.com/images/I/71rzlQ2XMOL.jpg');
 }
 
 main {
-    background-color: orange;
+    background-color: #F9FD02;
 }
 
-body {
-    background-color: red;
-}
-
-main button {
-    text-size: 20px;
-}
-
-.button {
-    border: 2px solid green;
-    border-radius: 100px;
-    background-color: greenyellow;
+.but {
+    background-color: #02D332; /* Green */
+    border: none;
+    color: black;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 16px;
-    padding: 7px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
 }
 
-.button1 {
-    border: 2px solid black;
-    border-radius: 100px;
-    background-color: blue;
-    color: white;
-    padding: 5px;
+.but1 {
+    background-color: #62ff00; /* Green */
+    border: none;
+    color: black;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+    
+    
+}
+
+main img {
+  height: 200px
+}
+
+nav {
+    text-align: center;
 }
