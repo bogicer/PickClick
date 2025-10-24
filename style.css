@@ -52,3 +52,20 @@ main img {
 nav {
     text-align: center;
 }
+
+.mais {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.heds {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.fot {
+    display: flex;
+    justify-content: flex-end;
+}
