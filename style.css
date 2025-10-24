@@ -1,4 +1,5 @@
-body {
+
+ body {
     background-color: #FD9F02;
 }
 
@@ -46,7 +47,8 @@ main {
 }
 
 main img {
-  height: 200px
+  height: 200px;
+  widht: 130px;
 }
 
 nav {
@@ -69,3 +71,8 @@ nav {
     display: flex;
     justify-content: flex-end;
 }
+
+.sec {
+    border: dotted navy 4px
+}
+
