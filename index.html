@@ -1,41 +1,16 @@
 
-<html>
-    <body>
-        <head>
+<html><body>
+             <head>
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>PickClick</title>
-            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://bogicer.github.io/PickClick/style.css">
             <link rel="shortcut icon" href="https://raw.githubusercontent.com/bogicer/Site/refs/heads/main/8325d3cd-5f91-42c3-ba28-f7dcf9116840.png" type="image/x-icon"> 
-            <script>
-                    const host = "ip"; 
-    const interval = 10000; 
-
-    async function checkServer() {
-      try {
-        const res = await fetch(`https://api.mcsrvstat.us/2/${encodeURIComponent(host)}`);
-        const data = await res.json();
-        const statusEl = document.getElementById('status');
-        if (data.online) {
-          statusEl.textContent = `ОНЛАЙН ${data.players.online}/${data.players.max}`;
-          statusEl.className = "online";
-        } else {
-          statusEl.textContent = "сервер офлайн ❌";
-          statusEl.className = "offline";
-        }
-      } catch {
-        const statusEl = document.getElementById('status');
-        statusEl.textContent = "OFFLINE ❌";
-        statusEl.className = "offline";
-      }
-    }
-
-    checkServer();              
-    setInterval(checkServer, interval); 
-            </script>
-        </head>
+            </head>
+        
         <header>
             <div class="heds">
                 <section>
-            <img src="https://raw.githubusercontent.com/bogicer/Site/refs/heads/main/8325d3cd-5f91-42c3-ba28-f7dcf9116840.png"width="50px"height="50px">
+            <img src="https://raw.githubusercontent.com/bogicer/Site/refs/heads/main/8325d3cd-5f91-42c3-ba28-f7dcf9116840.png" width="50px" height="50px">
                 </section>
                 <section>
             <button class="but" type="submit" href="shop.html">магазин</button>
@@ -48,7 +23,7 @@
              </section>
             </div>
             <h1>PickClick</h1>
-            <div id="status">перевірка онлайну</div>
+            <div id="status" class="offline">сервер офлайн ❌</div>
             <br>
         </header>
         <main>
@@ -56,13 +31,13 @@
             <div class="mais">
                 <section class="sec">
                 <h2>магазин</h2>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqN4Hd_O1LGQE7jjgzzNa3UO8kKAIAYiYAw&s">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqN4Hd_O1LGQE7jjgzzNa3UO8kKAIAYiYAw&amp;s">
                 <p>тут ви можете купити багато цікавого</p>
                 <button class="but" type="submit" href="shop.html">магазин</button>
                 </section>
                 <section class="sec">
                     <h2>про нас</h2>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNsKYR7isrtl-UVqhR_-sNlbR295X3KZ9ZBQ&s">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNsKYR7isrtl-UVqhR_-sNlbR295X3KZ9ZBQ&amp;s">
                     <p>ми невеличкий сервер для гри з друзями</p>
                 </section>
                 <section class="sec">
@@ -86,5 +61,6 @@
             </div>
             
         </footer>
-    </body>
-</html>
+    
+
+</body></html>
