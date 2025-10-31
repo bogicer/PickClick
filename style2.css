@@ -2,31 +2,80 @@ body {
   background-color: orange;
 }
 
-.h21{
-text-align: center;
-color: black;
-background-color: white;
-border: 5px solid brown;
+main div section{
+justify-content: center;
+background-color: brown;
+border: dashed black 3px;
+padding-bottom: 15px;
+padding-top: 15px;
 }
+
+main div {
+    padding: 20px 20px 20px 20px;
+}
+
 
 main {
-color: black;
-background-color: white;
-border: 5px solid brown;
-}
-
-main h3 {
-  text-align: center;
+color: white;
+background-color: yellow;
 }
 
 footer {
-  background-color: red;
+  background-color: orange;
   color: black;
-  border: 5px solid blue;
 }
 
-button {
-    border: 2px solid green;
-    border-radius: 15px;
-    background-color: greenyellow;
+.but {
+    background-color: #02D332; /* Green */
+    border: none;
+    color: black;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+
+.heds {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.fo {
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fot {
+    display: flex;
+    justify-content: end;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.but1 {
+    background-color: #62ff00; /* Green */
+    border: none;
+    color: black;
+    padding: 5px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+    
+    
+}
+
+footer p {
+    text-align: center;
 }
