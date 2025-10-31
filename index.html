@@ -1,29 +1,54 @@
 
-<html><body>
-             <head>
-             <meta name="viewport" content="width=device-width, initial-scale=0.9">
+<html>
+    <body>
+        <head>
             <title>PickClick</title>
-            <link rel="stylesheet" href="https://bogicer.github.io/PickClick/style.css">
+            <link rel="stylesheet" href="style.css">
             <link rel="shortcut icon" href="https://raw.githubusercontent.com/bogicer/Site/refs/heads/main/8325d3cd-5f91-42c3-ba28-f7dcf9116840.png" type="image/x-icon"> 
-            </head>
-        
+            <script>
+                    const host = "ip"; 
+    const interval = 10000; 
+
+    async function checkServer() {
+      try {
+        const res = await fetch(`https://api.mcsrvstat.us/2/${encodeURIComponent(host)}`);
+        const data = await res.json();
+        const statusEl = document.getElementById('status');
+        if (data.online) {
+          statusEl.textContent = `ОНЛАЙН ${data.players.online}/${data.players.max}`;
+          statusEl.className = "online";
+        } else {
+          statusEl.textContent = "сервер офлайн ❌";
+          statusEl.className = "offline";
+        }
+      } catch {
+        const statusEl = document.getElementById('status');
+        statusEl.textContent = "OFFLINE ❌";
+        statusEl.className = "offline";
+      }
+    }
+
+    checkServer();              
+    setInterval(checkServer, interval); 
+            </script>
+        </head>
         <header>
             <div class="heds">
                 <section>
-            <img src="https://raw.githubusercontent.com/bogicer/Site/refs/heads/main/8325d3cd-5f91-42c3-ba28-f7dcf9116840.png" width="50px" height="50px">
+            <img src="https://raw.githubusercontent.com/bogicer/Site/refs/heads/main/8325d3cd-5f91-42c3-ba28-f7dcf9116840.png"width="50px"height="50px">
                 </section>
                 <section>
-            <button class="but" type="submit" href="shop.html">магазин</button>
+            <a class="but" href="https://bogicer.github.io/PickClick/shop.html">магазин</a>
                 </section>
                 <section>
-            <button class="but" type="submit" href="rules.html">правила</button>
+            <a class="but" href="https://bogicer.github.io/PickClick/rules.html">правила</a>
              </section>
              <section>
-            <button class="but" type="submit" href="user">угода користувача</button>
+            <a class="but" href="https://bogicer.github.io/PickClick/user.html">угода користувача</a>
              </section>
             </div>
             <h1>PickClick</h1>
-            <div id="status" class="offline">сервер офлайн ❌</div>
+            <div id="status">перевірка онлайну</div>
             <br>
         </header>
         <main>
@@ -31,13 +56,13 @@
             <div class="mais">
                 <section class="sec">
                 <h2>магазин</h2>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqN4Hd_O1LGQE7jjgzzNa3UO8kKAIAYiYAw&amp;s">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqN4Hd_O1LGQE7jjgzzNa3UO8kKAIAYiYAw&s">
                 <p>тут ви можете купити багато цікавого</p>
-                <button class="but" type="submit" href="shop.html">магазин</button>
+                <a class="but" href="https://bogicer.github.io/PickClick/shop.html">магазин</a>
                 </section>
                 <section class="sec">
                     <h2>про нас</h2>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNsKYR7isrtl-UVqhR_-sNlbR295X3KZ9ZBQ&amp;s">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNsKYR7isrtl-UVqhR_-sNlbR295X3KZ9ZBQ&s">
                     <p>ми невеличкий сервер для гри з друзями</p>
                 </section>
                 <section class="sec">
@@ -46,14 +71,14 @@
 
                 <p>тут знайдете правила нашого сервера</p>
 
-                <button class="but" type="submit" href="rules.html">правила</button>
+                <a class="but" href="https://bogicer.github.io/PickClick/rules.html">правила</a>
             </section>
             </div>
         </main>
         <footer>
             <div clas="fo">
                             <section class="fot">
-            <button class="but1" type="submit" href="cabinet.html">кабінет</button>
+            <a class="but1"  href="https://bogicer.github.io/PickClick/cabinet.html">кабінет</a>
             </section>
                 <section>
                     <p>kiganer group ©</p>
@@ -61,6 +86,5 @@
             </div>
             
         </footer>
-    
-
-</body></html>
+    </body>
+</html>
