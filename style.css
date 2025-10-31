@@ -34,11 +34,11 @@ main {
     background-color: #62ff00; /* Green */
     border: none;
     color: black;
-    padding: 15px 35px;
+    padding: 5px 2px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 25px;
+    font-size: 17px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 9px;
@@ -48,7 +48,6 @@ main {
 
 main img {
   height: 200px;
-  widht: 130px;
 }
 
 nav {
@@ -69,7 +68,9 @@ nav {
 
 .fot {
     display: flex;
-    justify-content: center;
+    justify-content: end;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .sec {
@@ -77,6 +78,7 @@ nav {
 }
 
 .fo {
+    
     display: flex;
     flex-wrap: wrap;
 }
