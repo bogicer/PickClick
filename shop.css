@@ -1,0 +1,57 @@
+.heds {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.but {
+    background-color: #02D332; /* Green */
+    border: none;
+    color: black;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+body {
+    background-color: orange;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.imgs {
+    height: 150px;
+    padding-left: 20px;
+}
+
+.sect {
+    background-color: aqua;
+    border: dashed 4px green;
+    border-radius: 15px;
+    width: 200px;
+    height: 300px;
+    margin: 20px 15px 20px 15px;
+    padding-left: 9px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.buy {
+    text-decoration: none;
+    background-color: coral;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 5px 10px 5px;
+    margin: 15px 5px 0px 10px; 
+}
