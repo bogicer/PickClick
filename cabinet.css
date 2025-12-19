@@ -1,0 +1,51 @@
+body {
+    background-color: gold;
+}
+
+.l {
+    position: absolute;
+    display: block;
+    text-align: center;
+    left: 48%;
+}
+
+.w {
+    position: absolute;
+    display: none;
+    text-align: center;
+    left: 48%;
+}
+
+.cop {
+    position: fixed;
+    top: 90%;
+    bottom: 5%;
+    left: 48%;
+}
+
+.log {
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    background-color: lightsalmon;
+    border-radius: 20px;
+    width: 10%;
+    height: 5%;
+    padding: 5%;
+}
+
+.inp {
+    background-color: greenyellow;
+    border-radius: 15px;
+    width: 80%;
+    text-decoration: none;
+    border: 5px solid greenyellow;
+    margin: 3%;
+}
+
+.in {
+    background-color: aqua;
+    border-radius: 10px;
+    border: 3px solid aqua;
+    left: 40%;
+}

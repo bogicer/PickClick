@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="cabinet.css">
+        <script src="cabinet.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <h1 id="l" class="l">логін</h1>
+            <h1 id="w" class="w">кабінет</h1>
+        </header>
+
+        <main>
+            <div class="log">
+            <form id="loginForm">
+                <input class="inp" type="text" id="username" placeholder="Логін" required /><br>
+                <input class="inp" type="password" id="password" placeholder="Пароль" required /><br>
+                <button class="in" type="submit">Увійти</button>
+            </form>
+            </div>
+            
+            <div id="welcome" style="display:none;">
+                <h2>Вітаю! Ви увійшли.</h2>
+            </div>
+            
+            <p id="msg"></p>
+        </main>
+
+        <footer>
+                    <p class="cop">kiganer group ©</p>
+        </footer>
+    </body>
+</html>
